@@ -1,0 +1,356 @@
+*{
+      box-sizing: border-box;
+}
+
+body{
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+}
+
+.football-header{
+      width: 100%;
+      height: 110px;
+      background-color: #1D1500;
+}
+
+.imagin{
+      width: 170px;
+      padding-right: 20px;
+      position: relative;
+      left: 300px;
+      top: 10px;
+}
+
+.navbar{
+      position: relative;
+      bottom: 110px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.nav-list{
+      list-style-type: none;
+}
+
+li{
+      display: inline-flex;
+      text-align: center;
+      padding: 60px;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 2em;
+    font-size: 18px;
+}
+
+ li a:hover{
+      color: #E8343B;
+      opacity: .4;
+      
+}
+
+.btn-sign{
+      position: relative;
+      left: 230px;
+      bottom: 2px;
+      border: 2px solid #380b40;
+      font-size: 20px;
+      border-radius: 10px;
+      text-transform: capitalize;
+}
+
+.btn-sign:hover{
+      background-color: #873662;
+      color: white;
+      cursor: pointer;
+}
+
+.bg-hero{
+     position: absolute;
+     left: 0;
+     width: 100%;
+     height: 75vh;
+     background-size: cover;
+     animation: animate 10s ease-in-out infinite;
+}
+
+@keyframes animate{
+      0%,100%{
+            background-image: url(/image/bg.jpeg);
+      }
+      25%{
+            background-image: url(/image/bg2.jpeg);
+      }
+      50%{
+            background-image: url(/image/bg3.jpeg);
+      }
+}
+
+.outer{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 75vh;
+      background: rgba(0,0,0,0.5);
+}
+
+.details{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+}
+
+.details h1{
+      font-size: 4em;
+      color: #fff;
+      text-transform: capitalize;
+      
+}
+
+.details h2{
+      text-transform: capitalize;
+}
+
+
+.details h2 span:nth-child(1){
+     color: #fff; 
+}
+
+.details h2 span:nth-child(2){
+     color: #fff; 
+}
+
+.container{
+      position: absolute;
+      top: 90%;
+      right: 40%;
+      text-align: center;
+      
+}
+
+.expert h1{
+      font-size: 60px;
+      text-transform: capitalize;
+}
+
+.col1{
+      position: absolute;
+      top: 107%;
+      right: 70%;
+      border: 1px  solid #FFE6E6;
+      padding: 30px;
+      text-align: center;
+      text-transform: uppercase;
+      
+}
+.col2{
+       position: absolute;
+      top: 107%;
+      right: 43%;
+       border: 1px  solid #FFE6E6;
+      padding: 30px;
+      text-align: center;
+      text-transform: uppercase;
+}
+.col3{
+       position: absolute;
+      top: 107%;
+      right: 15%;
+       border: 1px  solid #FFE6E6;
+      padding: 30px;
+      text-align: center;
+      text-transform: uppercase;
+}
+
+ 
+
+.btn-bet{
+      background-color: red;
+      color: #fff;
+      padding: 0 90px;
+      height: 40px;
+      text-transform: capitalize;
+      border: none;
+      border-radius: 10px;
+}
+
+.btn-bet:hover{
+      background-color: #4ACE19;
+      cursor: pointer;
+}
+.container-button1{
+      position: absolute;
+      top: 153%;
+      right: 55%;
+      
+}
+
+.container-button2{
+      position: absolute;
+      top: 153%;
+      right: 30%;
+      
+}
+
+.btn-live{
+      height: 50px;
+      padding: 0 150px;
+      text-align: center;
+      text-transform: capitalize;
+      border: none;
+      color: #fff;
+      background-color: #4ACE19;
+      border-radius: 10px;
+      font-size: 19px;
+      cursor: pointer;
+}
+
+.btn-live2{
+      height: 50px;
+      padding: 0 150px;
+      text-align: center;
+      text-transform: capitalize;
+      border: none;
+      color: #fff;
+      background-color: #0546D1;
+      border-radius: 10px;
+      font-size: 19px;
+      cursor: pointer;
+}
+
+.container-picks{
+      position: absolute;
+      top: 165%;
+      right: 40%;
+}
+
+.picks h3{
+      font-size: 40px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #0546D1;
+}
+
+.top-picks{
+       position: absolute;
+      top: 175%; 
+      right: 30%;
+}
+
+.toppicks{
+      height: 40px;
+      padding: 0 290px;
+      text-align: center;
+      text-transform: capitalize;
+      font-size: 17px;
+      color: #fff;
+      background-color: #4ACE19;
+      cursor: pointer;
+      border: none;
+      border-radius: 10px;
+}
+
+.column{
+      position: absolute;
+      top: 182%;
+      right: .2%;
+      background-size: cover;
+}
+
+.column-1{
+      position: absolute;
+      top: 182%;
+      opacity: .7;
+      background-size: cover;
+}
+
+.imagetext h2{
+     text-align: center;
+     position: absolute;
+     bottom: 50%;
+     top: 40%;
+     color: #fff;
+     text-transform: capitalize;
+     font-size: 3rem;
+}
+
+.down-section{
+      position: absolute;
+      top: 246%;
+      width: 100%;
+      height: 550px;
+      background-color: #171927;
+}
+
+ h5{
+      color: white;
+      margin-top: 5%;
+      margin-left: 15%;
+      font-size: 18px;
+}
+
+.list li{
+      color: #8D8DAA;
+      clear: left;
+      float: left;
+
+}
+
+.move{
+      display: inline-block;
+      padding: 3px;
+      margin-left: 13%;
+      cursor: pointer;
+      
+      
+}
+
+.move a {
+      text-transform: lowercase;
+      text-decoration: underline;
+}
+
+.logoli{
+      position: absolute;
+      bottom: 40%;
+      left: 15%;
+}
+
+.footer{
+      position: absolute;
+      width: 100%;
+      border: 1px solid #5B7DB1;
+      top: 285%;
+      opacity: .3;
+      height: 16vh;
+      border-bottom: none;
+      border-left: none;
+}
+.foot-p{
+      color: #5B7DB1;
+      text-align: center;
+      padding-top: 15PX;
+}
+
+.footy{
+      color: #E5343A;
+      text-align: center;
+      padding-top: 10px;
+      cursor: pointer;
+}
+
+
+
+
+
+
+
+
